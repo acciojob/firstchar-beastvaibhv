@@ -1,11 +1,15 @@
 function firstChar(text) {
 	
-	if(text.length === 0){
-		return '';
-	}
-  const firstLetter = text[0];
-	return firstLetter;
-}
+	text = text.trim();
+  
+  if (text.length === 0) {
+    return '';
+  }
+  
+  return text[0];
+  }
+	
+
 
 // Do not change the code below
 
