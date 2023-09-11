@@ -1,5 +1,9 @@
 function firstChar(text) {
-  return text[0];
+	if(text.length < 2){
+		return '';
+	}
+  const firstLetter = text[0];
+	return firstLetter;
 }
 
 // Do not change the code below
